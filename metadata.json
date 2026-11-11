@@ -1,0 +1,6 @@
+{
+  "name": "Mini LLM – AI Chatbot",
+  "description": "A functional open-source LLM chatbot with a ChatGPT-style interface, local Python/Streamlit project code, model architecture breakdown, and downloadable codebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

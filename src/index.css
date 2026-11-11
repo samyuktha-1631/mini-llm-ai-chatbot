@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Matcha Green Spectrum */
+  --color-matcha-950: #0a150e;
+  --color-matcha-900: #102117;
+  --color-matcha-850: #152a1d;
+  --color-matcha-800: #1b3827;
+  --color-matcha-700: #254d35;
+  --color-matcha-600: #316646;
+  --color-matcha-500: #3f835a;
+  --color-matcha-400: #5caa79;
+  --color-matcha-300: #88c89f;
+  --color-matcha-200: #bde4cd;
+  --color-matcha-100: #def3e7;
+  --color-matcha-50:  #f0f9f3;
+
+  /* Strawberry Pink Spectrum */
+  --color-strawberry-950: #2b0b15;
+  --color-strawberry-900: #471123;
+  --color-strawberry-800: #6f1734;
+  --color-strawberry-700: #9e1d47;
+  --color-strawberry-600: #ca2557;
+  --color-strawberry-500: #e7396f;
+  --color-strawberry-400: #f16490;
+  --color-strawberry-300: #f796b4;
+  --color-strawberry-200: #fccbd8;
+  --color-strawberry-100: #fee8ef;
+  --color-strawberry-50:  #fff5f8;
+
+  /* Cream / Milk Spectrum */
+  --color-cream-950: #141614;
+  --color-cream-900: #1e221e;
+  --color-cream-800: #292f29;
+  --color-cream-200: #e8ede5;
+  --color-cream-100: #f3f7f0;
+  --color-cream-50:  #fafcf8;
+}
+
+/* Custom scrollbars with strawberry-matcha tint */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(63, 131, 90, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(231, 57, 111, 0.4);
+}
+
